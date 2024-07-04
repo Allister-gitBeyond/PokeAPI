@@ -1,0 +1,313 @@
+
+/*Base Styles*/
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+
+div {
+
+    width: 100vh;
+    
+}
+
+
+
+
+
+:root {
+    --body-bg: #3d4e5350;
+    --primary: #eaca5b;
+    --primary-dark: #2d2b28;
+    --white: #ffffff;
+    --gray: #20326b75;
+    --new: #327e86c4;
+  }
+
+
+
+
+
+body {
+    background-color: var(--primary-dark);
+    min-height: 100vh;
+    padding: 1rem;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+p   {
+    font-family: sans-serif;
+    font-size: large;
+}
+
+
+
+
+.top_box {
+    justify-content: top;
+    min-height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Flexbox*/
+
+.flexbox_container {
+    display: flex;  
+
+    flex-direction: column;  
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+
+.flexbox_divs_progress {
+    display: inline-flex;  
+
+    width: 100%;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+
+.flexbox_container_answers {
+    display: flex;  
+
+    /* flex-direction: column;   */
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+
+    /* align-items: center; */
+    text-align: center;
+
+    margin: 20px;
+
+    padding: 5px;
+
+    color: rosybrown;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Header*/
+
+.firstclassstyle h1 {
+    color: rosybrown;
+
+    font-size: 42px;
+    font-style: normal;
+
+    width: 100%;
+
+    text-align: center;
+
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+    padding: 5px;
+}
+
+
+
+
+
+/*Style 1*/
+
+.oneclassstyle {
+    color:rgba(138, 19, 92, 0.692);
+
+    text-align: center;
+
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+    padding: 5px;
+}
+
+
+
+
+
+/*Style 2*/
+
+.twoclassstyle {
+
+    display: inline-flex;
+
+    flex-direction: column;
+
+
+    color: rosybrown;
+
+    font-size: 26px;
+    font-style: normal;
+    font-family: tahoma;
+
+    margin-left: 30px;
+
+    text-align: start;
+
+    justify-content: start;
+
+
+}
+
+
+
+
+
+
+/*Style 4*/
+
+.fourclassstyle {
+
+    display: inline-flex;
+
+    min-height: 500px;
+
+    flex-direction: column;
+
+    color: rosybrown;
+   
+    font-size: 26px;
+    font-style: normal;
+    font-family: tahoma;
+
+    margin-top: 50px;
+
+    margin-left: 30px;
+
+    text-align: start;
+
+    justify-content: flex-start;
+    align-content: flex-start;
+
+    align-items: flex-start;
+
+}
+
+
+
+
+
+/*Span*/
+
+.oneclassstyle span {
+
+    height: 4px;
+    width: 15%;
+
+    font-size: 24;
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    border-radius: 25px;
+    background-color: var(--gray);
+
+   
+  }
+
+
+
+
+.container .quiz-progress span {
+
+    width: 50%;
+    height: 4px;
+
+    border-radius: 25px;
+   
+}
+
+
+
+
+
+.oneclassstyle span.seen {
+    background-color: snow;
+}
+
+
+
+
+
+
+/*Buttons    -    good example of how to denote a small border & border radius*/
+
+button {
+
+    align-self: flex-start;
+
+    background-color: #3d4e5350;
+
+    width: 300px;
+    height: 70px;
+
+    border: 2px solid;
+    border-color: rosybrown;;
+    border-radius: 15px;
+
+    /* margin-top: 30px;
+    margin-bottom: 30px; */
+    margin: 30px;
+    
+    padding: 20px;
+
+    transition: 0.5s;
+}
+
+button:hover  {
+                border-color: snow;
+
+                transition: 0.5s;
+                /* transition-delay: 0.5s;
+                transition-duration: 1s;
+                transition: transform 1; */
+}
+
+
