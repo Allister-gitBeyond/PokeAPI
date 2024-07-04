@@ -18,18 +18,30 @@ html    {
 
 
 div     {   
-    margin: 5px;
-    padding: 5px;
-}
+            margin: 5px;
+            padding: 5px;
+        }
 
 
 
 
 
 
-ul      {
-    font-family: sans-serif;
-    font-size: 16px;
+ol      {
+            display: flex;
 
-    color: violet;
-}
+            margin: 20px;
+            padding: 5px;
+
+            font-family: sans-serif;
+            font-size: 16px;
+
+            color: blue;
+        }
+
+li      {
+
+        margin: 20px;
+        padding: 5px;
+
+        }
