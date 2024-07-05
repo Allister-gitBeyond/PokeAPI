@@ -27,7 +27,7 @@ div     {   width: 100vh;   }
 p       {   height: auto;
             width: 50%;
             
-            font-size: large;
+            font-size: 24px;
             font-family: sans-serif;
 
             padding: 20px;
