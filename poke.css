@@ -180,7 +180,9 @@ p       {   height: auto;
 
 /*Style 1*/
 
-.oneclassstyle  {   text-align: center;
+.oneclassstyle  {   min-height: 250px;
+                        
+                    text-align: center;
 
                     margin-top: 5px;
                     padding: 5px;
@@ -316,7 +318,9 @@ button:hover
 
 /* Pokemon Image */
 
-img {   transition: 0.5 ease-in-out;    }
+img {   min-height: fit-content;
+    
+        transition: 0.5 ease-in-out;    }
 
 
 img:hover   {   transform: scale(1.5);  }
