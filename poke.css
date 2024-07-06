@@ -22,11 +22,11 @@ body    {   color: rgb(192, 177, 177);
             font-family: sans-serif;    }
 
 
-div     {   width: 100vh;   }
+div     {   width: 100%;   }
 
 
 p       {   height: auto;
-            width: 250px;
+            width: 50%;
             
             font-size: 24px;
             font-family: sans-serif;
