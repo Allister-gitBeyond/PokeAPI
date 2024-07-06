@@ -232,7 +232,7 @@ p       {   height: auto;
                     color: rosybrown;   }
 
 
-.value .stats {     width: 300px;
+.value .stats {     width: 50%;
 
                     margin-top: 5px;
                     padding: 20px;
@@ -324,3 +324,21 @@ img {   min-height: fit-content;
 
 
 img:hover   {   transform: scale(1.5);  }
+
+
+
+
+
+
+
+
+             /*===============
+                Media Queries
+                ===============*/
+
+            @media (max-width: 1200px)      { .column          { width: 100%; }
+                                              .twoclassstyle   { width: 100%; }
+                                            }
+
+
+
