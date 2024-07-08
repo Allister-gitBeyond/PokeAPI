@@ -138,24 +138,6 @@ p       {   height: auto;
 
 
 
-.flexbox_divs_answers 
-                    {
-                        width: 100%;
-                        
-                        display: flex;  
-
-                        flex-wrap: wrap;
-
-                        justify-content: space-around;
-                        text-align: center;
-
-                        margin-top: 5px;
-                        padding: 20px;
-
-                        color: rosybrown;   }
-
-
-
 
 
 /*Header*/
@@ -195,7 +177,9 @@ p       {   height: auto;
 
 /*Style 2*/
 
-.twoclassstyle {    display: flex;
+.twoclassstyle {    width: 50%;
+    
+                    display: flex;
                 
                     flex-direction: column;
                     flex-wrap: wrap;
@@ -216,10 +200,29 @@ p       {   height: auto;
 
 
 
+.threeclassstyle    {   width: 50%;
+                        
+                        display: flex;  
+
+                        flex-wrap: wrap;
+
+                        justify-content: space-around;
+                        text-align: center;
+
+                        margin-top: 5px;
+                        padding: 20px;
+
+                        color: rosybrown;   }
+
+
+
+
 
 /*Style 4*/
 
-.fourclassstyle {   display: flex;  
+.fourclassstyle {   width: 50%;
+    
+                    display: flex;  
 
                     flex-wrap: wrap;
 
@@ -336,9 +339,7 @@ img:hover   {   transform: scale(1.5);  }
                 Media Queries
                 ===============*/
 
-            @media (max-width: 1200px)      { .column          { width: 100%; }
-                                              .twoclassstyle   { width: 100%; }
-                                            }
+            @media (max-width: 1200px)      { .button          { width: 100%; } }
 
 
 
